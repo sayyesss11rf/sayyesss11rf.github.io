@@ -1,0 +1,113 @@
+:root {
+    --color1: #051A2F;
+    --color2: #1DB785;
+    --color3: #9988F1;
+    --color4: #FEFEFE;
+    --color5: #e9fa4a;
+    --color6: #fe8f2a;
+    --color7: #ff503f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-bottom: 0vh;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.container-luar {
+    margin: 3.5vh;
+    background-color: var(--color4);
+    border-radius: 12px;
+    border: 2px solid var(--color1);
+    background-color: #effebe;
+    color: #043d50;
+}
+
+.container-dalam {
+    margin: 5vh 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #effebe;
+}
+
+h1 {
+    margin-bottom: 5vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.payment-details {
+    width: 100%;
+}
+
+.form-group {
+    margin-top: 2.5vh;
+    margin-bottom: 1.5vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5vh;
+}
+
+input {
+    width: 100%;
+    padding: 1.5vh;
+    border-radius: 8px;
+    border: 2px solid var(--color1);
+    color: #043d50;
+}
+
+input::placeholder {
+    color: #043d50;
+    opacity: 0.3;
+    font-weight: 550;
+    font-style: italic;
+}
+
+.tombol {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    width: 100%;
+}
+
+button {
+    border: none;
+    border-radius: 9px;
+    padding: 2vh;
+    font-weight: 700;
+    color: var(--color4);
+    background-color: var(--color2);
+    cursor: pointer;
+}
+
+.batal {
+    background-color: var(--color7);
+}
+
+footer {
+    text-align: center;
+    padding: 3vh;
+    background-color: var(--color1);
+    color: white;
+    font-weight: 400;
+    font-size: smaller;
+}
