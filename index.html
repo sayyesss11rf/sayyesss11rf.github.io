@@ -31,5 +31,15 @@
 		</audio>
 
 		<div id="root"></div>
+
+		<script>
+			window.addEventListener("DOMContentLoaded", () => {
+				const audio = new Audio("/assets/lagu-CCw_-awv.mp3");
+				audio.loop = true;
+				audio.play().catch((err) => {
+					console.log("Autoplay dicegah browser, harus klik dulu:", err);
+				});
+			});
+		</script>
 	</body>
 </html>
